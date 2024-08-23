@@ -43,7 +43,7 @@
     </head>
     <body class="login_page" style="padding: 0px;background-image: url(assets/img/logo_login.jpg); " >
         <div class="login_page_wrapper">
-            <div class="md-card" id="login_card">
+            <div class="md-card" id="login_card" style="transform: translateX(350px)translateY(25px);">
                 <div class="md-card-content large-padding" id="login_form">
                     <div class="login_heading" style="font-size: 16px">
                         <div><a href="https://www.cqu.edu.cn/" title="重庆大学官网"><img src="assets/img/logo_main_small.png" style="height: 50px; margin-bottom: 15px; "></a></div>
