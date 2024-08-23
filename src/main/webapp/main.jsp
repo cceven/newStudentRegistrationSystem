@@ -66,7 +66,7 @@
 <!-- main sidebar -->
 <aside id="sidebar_main">
     <div class="sidebar_main_header">
-        <div class="sidebar_logo">
+        <div class="sidebar_logo" style="transform: translateX(15px)translateY(15px);">
             <a href="./" class="sSidebar_show"><img src="assets/img/logo_main.png" alt="" height="15" width="71"/></a>
             <a href="./" class="sSidebar_hide"><img src="assets/img/logo_main_small.png" title="点击返回登陆页面" alt="" height="32" width="32"/></a>
         </div>
