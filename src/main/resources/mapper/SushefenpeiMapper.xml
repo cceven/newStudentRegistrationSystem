@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.SushefenpeiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Sushefenpei">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="sushexinxiid" property="sushexinxiid" jdbcType="INTEGER"/>
+                                    <result column="sushehao" property="sushehao" jdbcType="VARCHAR"/>
+                                    <result column="susheleixing" property="susheleixing" jdbcType="VARCHAR"/>
+                                    <result column="chuangweihao" property="chuangweihao" jdbcType="VARCHAR"/>
+                                    <result column="xuesheng" property="xuesheng" jdbcType="INTEGER"/>
+                                    <result column="xuehao" property="xuehao" jdbcType="VARCHAR"/>
+                                    <result column="xingming" property="xingming" jdbcType="VARCHAR"/>
+                                    <result column="xingbie" property="xingbie" jdbcType="VARCHAR"/>
+                                    <result column="xueyuan" property="xueyuan" jdbcType="VARCHAR"/>
+                                    <result column="zhuanye" property="zhuanye" jdbcType="VARCHAR"/>
+                                    <result column="banji" property="banji" jdbcType="VARCHAR"/>
+                                    <result column="fenpeishijian" property="fenpeishijian" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, sushexinxiid, sushehao, susheleixing, chuangweihao, xuesheng, xuehao, xingming, xingbie, xueyuan, zhuanye, banji, fenpeishijian    </sql>
+    </mapper>

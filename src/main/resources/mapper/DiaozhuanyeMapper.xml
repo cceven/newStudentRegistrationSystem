@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.DiaozhuanyeMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Diaozhuanye">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="xinshengid" property="xinshengid" jdbcType="INTEGER"/>
+                                    <result column="xuehao" property="xuehao" jdbcType="VARCHAR"/>
+                                    <result column="xingming" property="xingming" jdbcType="VARCHAR"/>
+                                    <result column="xueyuan" property="xueyuan" jdbcType="VARCHAR"/>
+                                    <result column="zhuanye" property="zhuanye" jdbcType="VARCHAR"/>
+                                    <result column="banji" property="banji" jdbcType="VARCHAR"/>
+                                    <result column="shenqingbianhao" property="shenqingbianhao" jdbcType="VARCHAR"/>
+                                    <result column="shenqingshijian" property="shenqingshijian" jdbcType="VARCHAR"/>
+                                    <result column="diaodaoxueyuan" property="diaodaoxueyuan" jdbcType="VARCHAR"/>
+                                    <result column="diaodaozhuanye" property="diaodaozhuanye" jdbcType="VARCHAR"/>
+                                    <result column="diaodaobanji" property="diaodaobanji" jdbcType="VARCHAR"/>
+                                    <result column="shenqingmiaoshu" property="shenqingmiaoshu" jdbcType="VARCHAR"/>
+                                    <result column="shenqingxuesheng" property="shenqingxuesheng" jdbcType="VARCHAR"/>
+                                    <result column="shenqingzhuangtai" property="shenqingzhuangtai" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, xinshengid, xuehao, xingming, xueyuan, zhuanye, banji, shenqingbianhao, shenqingshijian, diaodaoxueyuan, diaodaozhuanye, diaodaobanji, shenqingmiaoshu, shenqingxuesheng, shenqingzhuangtai    </sql>
+    </mapper>

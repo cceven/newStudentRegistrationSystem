@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.XuefeixinxiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Xuefeixinxi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="xuefeibianhao" property="xuefeibianhao" jdbcType="VARCHAR"/>
+                                    <result column="xuesheng" property="xuesheng" jdbcType="INTEGER"/>
+                                    <result column="xuehao" property="xuehao" jdbcType="VARCHAR"/>
+                                    <result column="xingming" property="xingming" jdbcType="VARCHAR"/>
+                                    <result column="xingbie" property="xingbie" jdbcType="VARCHAR"/>
+                                    <result column="xueyuan" property="xueyuan" jdbcType="VARCHAR"/>
+                                    <result column="zhuanye" property="zhuanye" jdbcType="VARCHAR"/>
+                                    <result column="banji" property="banji" jdbcType="VARCHAR"/>
+                                    <result column="xuefeifeiyong" property="xuefeifeiyong" jdbcType="DECIMAL"/>
+                                    <result column="beizhu" property="beizhu" jdbcType="VARCHAR"/>
+                                    <result column="jiaofeizhuangtai" property="jiaofeizhuangtai" jdbcType="VARCHAR"/>
+                                    <result column="caozuoren" property="caozuoren" jdbcType="VARCHAR"/>
+                                            <result column="iszf" property="iszf" jdbcType="VARCHAR"/>
+        
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, xuefeibianhao, xuesheng, xuehao, xingming, xingbie, xueyuan, zhuanye, banji, xuefeifeiyong, beizhu, jiaofeizhuangtai, caozuoren, iszf    </sql>
+    </mapper>

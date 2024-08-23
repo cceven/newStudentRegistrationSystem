@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.XianchangquerenMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Xianchangqueren">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="xinshengxinxiid" property="xinshengxinxiid" jdbcType="INTEGER"/>
+                                    <result column="yonghuming" property="yonghuming" jdbcType="VARCHAR"/>
+                                    <result column="xingming" property="xingming" jdbcType="VARCHAR"/>
+                                    <result column="xingbie" property="xingbie" jdbcType="VARCHAR"/>
+                                    <result column="lianxifangshi" property="lianxifangshi" jdbcType="VARCHAR"/>
+                                    <result column="shifouxinsheng" property="shifouxinsheng" jdbcType="VARCHAR"/>
+                                    <result column="beizhu" property="beizhu" jdbcType="VARCHAR"/>
+                                    <result column="caozuoren" property="caozuoren" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, xinshengxinxiid, yonghuming, xingming, xingbie, lianxifangshi, shifouxinsheng, beizhu, caozuoren    </sql>
+    </mapper>

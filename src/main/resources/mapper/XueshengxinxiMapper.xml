@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.XueshengxinxiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Xueshengxinxi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="xinshengxinxiid" property="xinshengxinxiid" jdbcType="INTEGER"/>
+                                    <result column="yonghuming" property="yonghuming" jdbcType="VARCHAR"/>
+                                    <result column="xuehao" property="xuehao" jdbcType="VARCHAR"/>
+                                    <result column="xingming" property="xingming" jdbcType="VARCHAR"/>
+                                    <result column="xingbie" property="xingbie" jdbcType="VARCHAR"/>
+                                    <result column="xueyuan" property="xueyuan" jdbcType="VARCHAR"/>
+                                    <result column="zhuanye" property="zhuanye" jdbcType="VARCHAR"/>
+                                    <result column="banji" property="banji" jdbcType="VARCHAR"/>
+                                    <result column="lianxifangshi" property="lianxifangshi" jdbcType="VARCHAR"/>
+                                    <result column="suozaisushehao" property="suozaisushehao" jdbcType="VARCHAR"/>
+                                    <result column="xueshengjianjie" property="xueshengjianjie" jdbcType="VARCHAR"/>
+                                    <result column="shifoufenpeisushe" property="shifoufenpeisushe" jdbcType="VARCHAR"/>
+                                    <result column="shifouyijiaoxuefei" property="shifouyijiaoxuefei" jdbcType="VARCHAR"/>
+                                    <result column="sushejiaofei" property="sushejiaofei" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, xinshengxinxiid, yonghuming, xuehao, xingming, xingbie, xueyuan, zhuanye, banji, lianxifangshi, suozaisushehao, xueshengjianjie, shifoufenpeisushe, shifouyijiaoxuefei, sushejiaofei    </sql>
+    </mapper>

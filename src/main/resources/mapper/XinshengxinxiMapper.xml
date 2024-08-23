@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.XinshengxinxiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Xinshengxinxi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="yonghuming" property="yonghuming" jdbcType="VARCHAR"/>
+                                    <result column="mima" property="mima" jdbcType="VARCHAR"/>
+                                    <result column="xingming" property="xingming" jdbcType="VARCHAR"/>
+                                    <result column="xingbie" property="xingbie" jdbcType="VARCHAR"/>
+                                    <result column="lianxifangshi" property="lianxifangshi" jdbcType="VARCHAR"/>
+                                    <result column="shifouxinsheng" property="shifouxinsheng" jdbcType="VARCHAR"/>
+                                    <result column="sushehao" property="sushehao" jdbcType="VARCHAR"/>
+                                    <result column="fenpeisushe" property="fenpeisushe" jdbcType="VARCHAR"/>
+                                    <result column="xuefeijiaofei" property="xuefeijiaofei" jdbcType="VARCHAR"/>
+                                    <result column="sushejiaofei" property="sushejiaofei" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, yonghuming, mima, xingming, xingbie, lianxifangshi, shifouxinsheng, sushehao, fenpeisushe, xuefeijiaofei, sushejiaofei    </sql>
+        <select id="login" resultMap="BaseResultMap" parameterType="com.spring.entity.Xinshengxinxi">
+        select
+        <include refid="Base_Column_List"/>
+        from xinshengxinxi        where yonghuming = #{yonghuming}
+        AND mima = #{mima}
+    </select>
+    </mapper>
