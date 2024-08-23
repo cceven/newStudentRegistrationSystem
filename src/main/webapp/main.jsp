@@ -38,7 +38,7 @@
 
             <div id="menu_top_dropdown" class="uk-float-left uk-hidden-small">
                 <div class="uk-button-dropdown">
-                    <a href="./" class="top_menu_toggle"><i class="material-icons md-24">&#xE8F0;</i> 新生报道注册网站</a>
+                    <a href="main.jsp" class="top_menu_toggle"><i class="material-icons md-24">&#xE8F0;</i> 新生报道注册网站</a>
                 </div>
             </div>
 
