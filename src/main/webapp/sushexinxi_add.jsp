@@ -71,6 +71,7 @@
                                     id="sushechuangwei"
                                     name="sushechuangwei"
                                     value=""
+                                    oninput="if(value<=1)value=1;if(value>=4)value=4;value=parseInt(value)"
                                 />
                             </div>
                         </div>
