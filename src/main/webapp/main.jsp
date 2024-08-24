@@ -25,6 +25,15 @@
     <link rel="stylesheet" href="assets/css/main.min.css" media="all"/>
 
     <!-- matchMedia polyfill for testing media queries in JS -->
+    <style>
+        /*“新生报道注册网站”的鼠标悬浮效果*/
+        .uk-button-dropdown:hover, #sidebar_main_toggle:hover, .uk-navbar-flip:hover, .sidebar_logo .sSidebar_hide:hover{
+            text-shadow: 10px 10px 10px black;
+            transition: 0.2s;
+            transform: scale(1.2);
+            overflow: visible;
+        }
+    </style>
 </head>
 <body class="sidebar_main_open sidebar_main_swipe">
 <!-- main header -->
@@ -68,7 +77,8 @@
     <div class="sidebar_main_header">
         <div class="sidebar_logo" style="transform: translateX(15px)translateY(15px);">
             <a href="./" class="sSidebar_show"><img src="assets/img/logo_main.png" alt="" height="15" width="71"/></a>
-            <a href="./" class="sSidebar_hide"><img src="assets/img/logo_main_small.png" title="点击返回登陆页面" alt="" height="32" width="32"/></a>
+            <a href="./" class="sSidebar_hide"><img src="assets/img/logo_main_small.png" title="点击返回登陆页面" style="margin-top: 5px;
+    margin-left: 1px;" height="32" width="32"/></a>
         </div>
     </div>
 

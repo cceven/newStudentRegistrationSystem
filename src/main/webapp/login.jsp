@@ -89,7 +89,7 @@
                         </div>
     <%--                两个跳转链接--%>
                     <div style="margin-top: 10px;">
-                        <button class="loginLink" style="margin-right: 10px;"><a href="https://www.cqu.edu.cn/xqgk/xxjj.htm" style="color: white; ">CQU简介</a></button>
+                        <button class="loginLink" style="margin-right: 10px;"><a href="https://www.cqu.edu.cn/xqgk/xxjj.htm" target="_blank" style="color: white; ">CQU简介</a></button>
                         <button class="loginLink" style="float: right; "><a href=" http://localhost:8081" target="_blank" style="color: white; ">CQU跳蚤市场</a></button>
                     </div>
                     </form>
