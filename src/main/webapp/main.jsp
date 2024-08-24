@@ -28,8 +28,8 @@
 </head>
 <body class="sidebar_main_open sidebar_main_swipe">
 <!-- main header -->
-<header id="header_main">
-    <div class="header_main_content">
+<header id="header_main" style="background-image: url(assets/img/banner-bg.png);">
+    <div class="header_main_content" >
         <nav class="uk-navbar">
             <!-- main sidebar switch -->
             <a href="#" id="sidebar_main_toggle" class="sSwitch sSwitch_left">
