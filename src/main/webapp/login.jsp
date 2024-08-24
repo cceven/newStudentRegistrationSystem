@@ -83,8 +83,11 @@
                         </div>
 <%--                        登录模块--%>
                         <div class="uk-margin-medium-top">
-                            <button type="submit" class="md-btn md-btn-primary md-btn-block md-btn-large">登录</button>
+<%--                            <button type="submit" class="md-btn md-btn-primary md-btn-block md-btn-large">登录</button>--%>
+
+                            <button class="submit" id="loginButton" class="md-btn md-btn-primary md-btn-block md-btn-large" style="vertical-align:middle"><span>登录</span></button>
                         </div>
+
                     </form>
                 </div>
             </div>
@@ -97,5 +100,53 @@
 
         <!-- altair login page functions -->
         <script src="assets/js/pages/login.min.js"></script>
+
+        <style>
+            #loginButton {
+                display: inline-block;
+                border-radius: 7px;
+                border: none;
+                background: #1875FF;
+                color: white;
+                font-family: inherit;
+                text-align: center;
+                font-size: 13px;
+                box-shadow: 0px 14px 56px -11px #1875FF;
+                width: 22.5em;
+                padding: 1em;
+                transition: all 0.4s;
+                cursor: pointer;
+            }
+
+            #loginButton span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.4s;
+            }
+
+            #loginButton span:after {
+                content: '欢迎来到重庆大学';
+                width: 110px;
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                left: 40px;
+                transition: 0.7s;
+            }
+
+            #loginButton:hover span {
+                padding-right: 3.55em;
+            }
+
+            #loginButton:hover span:after {
+                opacity: 4;
+                right: 0;
+            }
+
+
+
+        </style>
     </body>
 </html>
