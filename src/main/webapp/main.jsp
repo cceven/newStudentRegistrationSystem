@@ -28,17 +28,17 @@
 </head>
 <body class="sidebar_main_open sidebar_main_swipe">
 <!-- main header -->
-<header id="header_main" style="background-image: url(assets/img/banner-bg.png);">
+<header id="header_main" style="background-image: url(assets/img/banner-bg.png); background-position: center; height: 89px;;">
     <div class="header_main_content" >
         <nav class="uk-navbar">
             <!-- main sidebar switch -->
-            <a href="#" id="sidebar_main_toggle" class="sSwitch sSwitch_left">
+            <a href="#" id="sidebar_main_toggle" class="sSwitch sSwitch_left" style="margin-top: 33px; ">
                 <span class="sSwitchIcon"></span>
             </a>
 
             <div id="menu_top_dropdown" class="uk-float-left uk-hidden-small">
                 <div class="uk-button-dropdown">
-                    <a href="main.jsp" class="top_menu_toggle"><i class="material-icons md-24">&#xE8F0;</i> 新生报道注册网站</a>
+                    <a href="main.jsp" class="top_menu_toggle"><i class="material-icons md-24" >&#xE8F0;</i> 新生报道注册网站</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
             <div class="uk-navbar-flip">
                 <ul class="uk-navbar-nav user_actions">
                     <li data-uk-dropdown="{mode:'click',pos:'bottom-right'}">
-                        <a href="#" class="user_action_image">
+                        <a href="#" class="user_action_image" style="margin-top: 21px">
                             <img class="md-user-image" src="assets/img/avatars/avatar_11_tn.png" alt=""/>
                             ${sessionScope.username}
                         </a>
