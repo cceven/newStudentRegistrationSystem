@@ -13883,7 +13883,7 @@ body.pace-done > .page_preloader {
 }
 /*下面是自己修改*/
 .submenu:hover, .menu_section a:hover{
-    background-color: #c4c4c4;
+    background-color: rgba(0, 0, 0, .2);
 }
 .sSidebar_hide .dense-image{
         width: 66%;
