@@ -34,7 +34,7 @@
         <table width="100%" height="193" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#D9E9FF" style="text-align: center;  border-collapse: collapse; ">
             <tbody>
                 <tr align="middle" bgcolor="#ffffff">
-                    <td colspan="2" bgcolor="#CADCEA"><strong>新生报道注册网站</strong></td>
+                    <td colspan="2" bgcolor="#CADCEA"><strong>2024年重庆大学新生报道注册网站</strong></td>
                 </tr>
                 <c:choose> <c:when test="${'新生' == sessionScope.cx }">
 

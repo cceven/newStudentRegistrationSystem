@@ -32,7 +32,7 @@
     <div class="header_main_content" >
         <nav class="uk-navbar">
             <!-- main sidebar switch -->
-            <a href="#" id="sidebar_main_toggle" class="sSwitch sSwitch_left" style="margin-top: 33px; ">
+                <a href="#" id="sidebar_main_toggle" class="sSwitch sSwitch_left" style="margin-top: 33px; ">
                 <span class="sSwitchIcon"></span>
             </a>
 
