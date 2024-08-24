@@ -43,7 +43,7 @@
     </head>
     <body class="login_page" style="padding: 0px;background-image: url(assets/img/logo_login.jpg); " >
         <div class="login_page_wrapper">
-            <div class="md-card" id="login_card" style="transform: translateX(350px)translateY(25px);">
+            <div class="md-card" id="login_card" >
                 <div class="md-card-content large-padding" id="login_form">
                     <div class="login_heading" style="font-size: 16px">
                         <div><a href="https://www.cqu.edu.cn/" title="重庆大学官网"><img src="assets/img/logo_main_small.png" style="height: 50px; margin-bottom: 15px; "></a></div>
@@ -85,9 +85,13 @@
                         <div class="uk-margin-medium-top">
 <%--                            <button type="submit" class="md-btn md-btn-primary md-btn-block md-btn-large">登录</button>--%>
 
-                            <button class="submit" id="loginButton" class="md-btn md-btn-primary md-btn-block md-btn-large" style="vertical-align:middle"><span>登录</span></button>
+                            <button class="submit" id="loginButton" class="md-btn md-btn-primary md-btn-block md-btn-large" style="margin-top: -15px; vertical-align:middle; font-weight: bold;"><span>登录</span></button>
                         </div>
-
+    <%--                两个跳转链接--%>
+                    <div style="margin-top: 10px;">
+                        <button class="loginLink" style="margin-right: 10px;"><a href="https://www.cqu.edu.cn/xqgk/xxjj.htm" style="color: white; ">CQU简介</a></button>
+                        <button class="loginLink" style="float: right; "><a href="#" style="color: white; ">CQU跳蚤市场</a></button>
+                    </div>
                     </form>
                 </div>
             </div>
@@ -145,7 +149,30 @@
                 right: 0;
             }
 
+            /*跳转按钮*/
+            .loginLink {
+                padding: 12.5px 30px;
+                border: 0;
+                border-radius: 100px;
+                background-color: #1875ff;
+                font-weight: Bold;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+            }
 
+            .loginLink:hover {
+                background-color: #6fc5ff;
+                box-shadow: 0 0 20px #6fc5ff50;
+                transform: scale(1.1);
+            }
+
+            .loginLink:active {
+                background-color: #3d94cf;
+                transition: all 0.25s;
+                -webkit-transition: all 0.25s;
+                box-shadow: none;
+                transform: scale(0.98);
+            }
 
         </style>
     </body>
