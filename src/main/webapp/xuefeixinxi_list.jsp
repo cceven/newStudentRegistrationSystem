@@ -66,7 +66,7 @@
                         <th>备注</th>
                         <th>缴费状态</th>
                         <th>操作人</th>
-                        <th width="80" data-field="iszf">是否缴费</th>
+<%--                        <th width="80" data-field="iszf">是否缴费</th>--%>
                         <th width="180" data-field="handler">操作</th>
                     </tr>
                     </thead>
@@ -98,14 +98,14 @@
                             <td>${map.beizhu}</td>
                             <td>${map.jiaofeizhuangtai}</td>
                             <td>${map.caozuoren}</td>
-                            <td>
-                                    ${map.iszf}
-                                <c:choose>
-                                    <c:when test="${'否' == map.iszf }">
+<%--                            <td>--%>
+<%--                                    ${map.iszf}--%>
+<%--                                <c:choose>--%>
+<%--                                    <c:when test="${'否' == map.iszf }">--%>
 
-                                    </c:when></c:choose
-                                >
-                            </td>
+<%--                                    </c:when></c:choose--%>
+<%--                                >--%>
+<%--                            </td>--%>
                             <td align="center">
                                 <a href="xuefeixinxi_detail.do?id=${map.id}">详情</a>
 
