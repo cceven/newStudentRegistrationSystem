@@ -43,7 +43,19 @@
     </head>
     <body class="login_page" style="padding: 0px;background-image: url(assets/img/logo_login.jpg); " >
         <div class="login_page_wrapper">
-            <div class="md-card" id="login_card" style="transform: translateX(350px)translateY(25px);">
+            <div class="md-card" style="width: 400px;height: 300px;transform: translateX(-50%);">
+<%--                两个跳转链接--%>
+                <div style="padding: 26px; ">
+                <button class="loginLink" style="margin-right: 10px;"><a href="https://answer.baidu.com/answer/land?params=Ts8AQgfOS12hyYe1gCA2JHWmYQNKe83It2ijHXi69nV6QWzAmmyrNDggo8DlZSJjEaVZs%2FKSyvCCHMAtjQtP6N7jLro%2FVdk9ujQ0cFAoq5C2fFOybmp2uH5U8dj%2Fsc5ogFnyBba4%2BxELKeAJdfl7TVm15w1JbBOEtZHxNY3iMj7G8wBQ%2BTPjSXSBmxG3b4JLdamTkDimgbcBMbuhQP3bsQ%3D%3D&from=dqa&lid=d330d78d0074e2be&word=%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E7%AE%80%E4%BB%8B" style="color: white; ">重庆大学简介</a></button>
+                <button class="loginLink"><a href="#" style="color: white; ">重庆大学新生跳蚤市场</a></button>
+                </div>
+                <div style="width: 400px;height: 300px;margin-left: 10px ">
+                    <h3>注意事项：</h3>
+                    <div>1.学生首次登陆请现场报道后从管理员处获取账号密码</div>
+                    <div>2.如果忘记密码，请拨打。。联系管理员</div>
+                </div>
+            </div>
+            <div class="md-card" id="login_card" style="transform: translateX(350px)translateY(-75%)">
                 <div class="md-card-content large-padding" id="login_form">
                     <div class="login_heading" style="font-size: 16px">
                         <div><a href="https://www.cqu.edu.cn/" title="重庆大学官网"><img src="assets/img/logo_main_small.png" style="height: 50px; margin-bottom: 15px; "></a></div>
@@ -145,7 +157,30 @@
                 right: 0;
             }
 
+            /*跳转按钮*/
+            .loginLink {
+                padding: 12.5px 30px;
+                border: 0;
+                border-radius: 100px;
+                background-color: #2ba8fb;
+                font-weight: Bold;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+            }
 
+            .loginLink:hover {
+                background-color: #6fc5ff;
+                box-shadow: 0 0 20px #6fc5ff50;
+                transform: scale(1.1);
+            }
+
+            .loginLink:active {
+                background-color: #3d94cf;
+                transition: all 0.25s;
+                -webkit-transition: all 0.25s;
+                box-shadow: none;
+                transform: scale(0.98);
+            }
 
         </style>
     </body>
