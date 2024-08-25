@@ -34,7 +34,7 @@
         <table width="100%" height="193" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#D9E9FF" style="text-align: center;  border-collapse: collapse; ">
             <tbody>
                 <tr align="middle" bgcolor="#ffffff">
-                    <td colspan="2" bgcolor="#CADCEA"><strong>系统简介</strong></td>
+                    <td colspan="2" bgcolor="#CADCEA"><strong style="font-size: 20px; ">系统简介</strong></td>
                 </tr>
                 <c:choose> <c:when test="${'新生' == sessionScope.cx }">
 
@@ -65,7 +65,7 @@
                 </tr>
                 <tr align="middle" bgcolor="#ffffff">
                     <td width="10%" >系统作者：</td>
-                    <td width="41%" ><font class="t4">陈后超 韩佳傲 林昊 苏文军 黄静怡 文钦</font></td>
+                    <td width="41%" ><font class="t4">韩佳傲 林昊 陈后超 黄静怡 苏文军 文钦</font></td>
                 </tr>
                 <tr align="middle" bgcolor="#ffffff">
                     <td >指导老师：</td>
