@@ -95,7 +95,7 @@
 </aside>
 <!-- main sidebar end -->
 
-<div id="page_content" style="height: calc(100vh - 48px)">
+<div id="page_content" style="height: calc(100vh - 48px); padding-top: 30px; ">
     <div id="page_content_inner">
         <iframe class="iframe" name="main" src="sy.do"></iframe>
     </div>
