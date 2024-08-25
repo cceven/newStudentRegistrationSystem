@@ -65,15 +65,15 @@
                 </tr>
                 <tr align="middle" bgcolor="#ffffff">
                     <td width="10%" >系统作者：</td>
-                    <td width="41%" ><font class="t4">张三</font></td>
+                    <td width="41%" ><font class="t4">陈后超 韩佳傲 林昊 苏文军 黄静怡 文钦</font></td>
                 </tr>
                 <tr align="middle" bgcolor="#ffffff">
                     <td >指导老师：</td>
-                    <td >王五</td>
+                    <td >熊慧志 张巍巍</td>
                 </tr>
                 <tr align="middle" bgcolor="#ffffff">
                     <td >联系方式：</td>
-                    <td><font class="t41">13132935517</font></td>
+                    <td><font class="t41">TEL:15501174110</font></td>
                 </tr>
             </tbody>
         </table>
