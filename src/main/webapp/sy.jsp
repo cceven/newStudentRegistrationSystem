@@ -29,12 +29,12 @@
         </style>
     </head>
     <body leftMargin="5" topMargin="5" rightMargin="5" style="margin-top: 40px; ">
-    <h1 style="text-align: center" colspan="4" “><strong style="color:#000000">欢迎进入新生报道注册网站</strong></h1>
+    <h1 style="text-align: center" colspan="4" “><strong style="color:#000000">欢迎进入2024年重庆大学新生报道注册网站</strong></h1>
         <p>&nbsp;</p>
         <table width="100%" height="193" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#D9E9FF" style="text-align: center;  border-collapse: collapse; ">
             <tbody>
                 <tr align="middle" bgcolor="#ffffff">
-                    <td colspan="2" bgcolor="#CADCEA"><strong>2024年重庆大学新生报道注册网站</strong></td>
+                    <td colspan="2" bgcolor="#CADCEA"><strong>系统简介</strong></td>
                 </tr>
                 <c:choose> <c:when test="${'新生' == sessionScope.cx }">
 
