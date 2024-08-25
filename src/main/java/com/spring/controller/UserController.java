@@ -136,7 +136,8 @@ public class UserController extends BaseController {
                     referer = "./";
                 }
             }
-            return showSuccess("登录成功", referer);
+//            return showSuccess("登录成功", referer);
+            return "redirect:" + referer;
         }
     }
 

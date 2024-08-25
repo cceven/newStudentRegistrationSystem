@@ -110,7 +110,7 @@
                 display: inline-block;
                 border-radius: 7px;
                 border: none;
-                background: #1875FF;
+                background: #409ffc;
                 color: white;
                 font-family: inherit;
                 text-align: center;
@@ -154,7 +154,7 @@
                 padding: 12.5px 30px;
                 border: 0;
                 border-radius: 100px;
-                background-color: #1875ff;
+                background-color: #409ffc;
                 font-weight: Bold;
                 transition: all 0.5s;
                 -webkit-transition: all 0.5s;

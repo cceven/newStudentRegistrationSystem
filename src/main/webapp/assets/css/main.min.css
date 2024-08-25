@@ -10450,6 +10450,11 @@ div.ganttview .ui-resizable-w {
     position: relative
 }
 
+.submenu_trigger:hover, .submenu:hover{
+    text-shadow: 10px 10px 10px rgba(0， 0， 0， .3);
+    transform: scale(1.1);
+}
+
 #sidebar_main .menu_section > ul > li.act_section.submenu_trigger > a:before {
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg)

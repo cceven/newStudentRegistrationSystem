@@ -39,7 +39,8 @@
                             name="xueyuan"
                         >
                             <option value="">请选择</option>
-                            <ssm:sql var="select" type="select"> SELECT * FROM xueyuan ORDER BY id desc </ssm:sql>
+                            <ssm:sql var="select" type="select"> SELECT * FROM xueyuan
+                                ORDER BY id desc </ssm:sql>
                             <c:forEach items="${select}" var="m"
                                 ><c:set var="m" value="${m}" scope="request" />
                                 <option value="${m.id}">${m.xueyuanmingcheng}</option>
@@ -61,7 +62,7 @@
                             name="zhuanye"
                         >
                             <option value="">请选择</option>
-                            <ssm:sql var="select" type="select"> SELECT * FROM zhuanye ORDER BY id desc </ssm:sql>
+                            <ssm:sql var="select" type="select"> SELECT id, zhuanyemingcheng FROM xueyuanZhuanye ORDER BY id desc </ssm:sql>
                             <c:forEach items="${select}" var="m"
                                 ><c:set var="m" value="${m}" scope="request" />
                                 <option value="${m.id}">${m.zhuanyemingcheng}</option>
