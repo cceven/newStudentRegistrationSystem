@@ -88,7 +88,7 @@
                             <button class="submit" id="loginButton" class="md-btn md-btn-primary md-btn-block md-btn-large" style="margin-top: -15px; vertical-align:middle; font-weight: bold;"><span>登录</span></button>
                         </div>
     <%--                两个跳转链接--%>
-                    <div style="margin-top: 10px;">
+                    <div style="margin-top: 20px;margin-bottom: -10px;">
                         <button class="loginLink" style="margin-right: 10px;"><a href="https://www.cqu.edu.cn/xqgk/xxjj.htm" target="_blank" style="color: white; ">CQU简介</a></button>
                         <button class="loginLink" style="float: right; "><a href=" http://localhost:8081" target="_blank" style="color: white; ">CQU跳蚤市场</a></button>
                     </div>
