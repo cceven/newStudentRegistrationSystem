@@ -27,7 +27,7 @@
     <!-- matchMedia polyfill for testing media queries in JS -->
     <style>
         /*“新生报道注册网站”的鼠标悬浮效果*/
-        .uk-button-dropdown:hover, #sidebar_main_toggle:hover, .uk-navbar-flip:hover, .sidebar_logo .sSidebar_hide:hover{
+        .uk-button-dropdown:hover, #sidebar_main_toggle:hover, .user_action_image:hover, .sidebar_logo .sSidebar_hide:hover{
             text-shadow: 10px 10px 10px black;
             transition: 0.2s;
             transform: scale(1.2);
